@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio website complete</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Welcome</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#additional-info" class="nav__link">Additional Info</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Hi,<br>I'm <span class="home__title-color">Putu Padmanaba</span><br>
+                        <div class="animated-wrapper">
+                            <span class="animated-text" id="animated-text">Data Scientist</span>
+                        </div>
+                        </h1>
+                        
+
+                    <a href="#" class="button">Contact</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="assets/img/Putu.png"/>
+                        </g>
+                    </svg>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about bd-grid" id="about">
+            <h2 class="section-title about__subtitle">About Me</h2>
+
+            <div class="about__new-container about__text">
+                <!-- Left Card - Introduction -->
+                <div class="about__intro-card">
+                <h3 class="about__intro-title">Introduction</h3>
+                <p class="about__intro-text">
+                    I am a passionate AI engineer and data enthusiast with over a year of hands-on experience in data science and artificial intelligence. Currently, I specialize as a data and computer vision researcher, leading projects that integrate advanced analytics, generative AI, and object recognition. My work involves building and deploying LLM-powered systems, developing autonomous AI agents, and applying Retrieval-Augmented Generation (RAG) techniques to extract actionable insights and optimize workflows.
+                </p>
+                <a href="assets/CV_ATS_PUTU.pdf" class="button download__btn" download>
+                    Download CV <i class="uil uil-download-alt"></i>
+                </a>
+                </div>
+
+                <!-- Right Side - Skill Tags -->
+                <div class="about__skills">
+                <div class="skills__category">
+                    <h3>AI Engineer</h3>
+                    <div class="skills__tags">
+                    <span>LLM</span><span>AI Agent</span><span>LangChain</span><span>CrewAI</span><span>n8n</span><span>RAG</span><span>Chatbot Model</span>
+                    </div>
+                </div>
+                <div class="skills__category">
+                    <h3>Data Science</h3>
+                    <div class="skills__tags">
+                    <span>Python</span><span>Pandas</span><span>Numpy</span><span>Matplotlib</span><span>Seaborn</span><span>Data Modelling</span><span>Tensorflow</span><span>Keras</span>
+                    </div>
+                </div>
+                <div class="skills__category">
+                    <h3>Computer Vision</h3>
+                    <div class="skills__tags">
+                    <span>Python</span><span>OpenCV</span><span>Tensorflow</span><span>YOLO</span><span>Image Processing</span><span>Object Detection</span>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </section>
+
+
+            <!--===== additional section =====-->
+            <section class="additional section" id="additional-info">
+                <h2 class="section-title">Additional Info</h2>
+                
+                <div class="additional__container bd-grid">
+                    
+                    <!-- Certifications -->
+                    <div class="info-card certification">
+                    <div class="info-card__icon"><i class="bx bxs-certification"></i></div>
+                    <div class="info-card__content">
+                        <h3 class="info-card__title">Certifications</h3>
+                        <p class="info-card__subtitle">12 Completed</p>
+                        <ul class="info-card__list">
+                        <li>TensorFlow Developer Certifications by Goofle</li>
+                        <li>Machine Learning and Data (9 Certifications)</li>
+                        <li>AI (2 Certifications)</li>
+                        </ul>
+                    </div>
+                    </div>
+                
+                    <!-- Achievements -->
+                    <div class="info-card achievement">
+                    <div class="info-card__icon"><i class="bx bxs-trophy"></i></div>
+                    <div class="info-card__content">
+                        <h3 class="info-card__title">Achievements</h3>
+                        <p class="info-card__subtitle">3 Recognitions</p>
+                        <ul class="info-card__list">
+                        <li>2nd Placed ACAVERO: Data Analytics Competition 2024</li>
+                        <li>1st Placed Closer BMC & Business Plan National Competition</li>
+                        </ul>
+                    </div>
+                    </div>
+                
+                    <!-- Experience -->
+                    <div class="info-card experience">
+                    <div class="info-card__icon"><i class="bx bxs-briefcase-alt-2"></i></div>
+                    <div class="info-card__content">
+                        <h3 class="info-card__title">Experience</h3>
+                        <p class="info-card__subtitle">3 Roles</p>
+                        <ul class="info-card__list">
+                        <li>Data Researcher – 1 Years</li>
+                        <li>Computer Vision Researcher – 5 Months</li>
+                        <li>AI Researcher – 3 Months</li>
+                        </ul>
+                    </div>
+                    </div>
+                
+                </div>
+                </section>
+                
+
+
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+                
+                <div class="contact__info bd-grid">
+                    <a href="mailto:naba17092004@gmail.com" class="contact__item" target="_blank">
+                    <i class='bx bxs-envelope'></i>
+                    <span>naba17092004@gmail.com</span>
+                    </a>
+                
+                    <a href="https://linkedin.com/in/putu-padmanaba" class="contact__item" target="_blank">
+                    <i class='bx bxl-linkedin-square'></i>
+                    <span>linkedin.com/in/putu-padmanaba</span>
+                    </a>
+                
+                    <a href="https://github.com/Padmanaba231" class="contact__item" target="_blank">
+                    <i class='bx bxl-github'></i>
+                    <span>github.com/Padmanaba231</span>
+                    </a>
+                </div>
+                </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Putu Padmanaba</p>
+            <div class="footer__social">
+                <a href="mailto:naba17092004@gmail.com" class="footer__icon" target="_blank">
+                    <i class='bx bxs-envelope'></i>
+                </a>
+                
+                <a href="https://linkedin.com/in/putu-padmanaba" class="footer__icon" target="_blank">
+                    <i class='bx bxl-linkedin-square'></i>
+                </a>
+                
+                <a href="https://github.com/Padmanaba231" class="footer__icon" target="_blank">
+                    <i class='bx bxl-github'></i>
+                </a>
+                </div>
+                    
+            <p class="footer__copy">&#169; Putu Padmanaba. All rigths reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
+<!--===== END =====-->
