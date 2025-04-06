@@ -232,6 +232,55 @@ img {
   display: inline-block;
 }
 
+/* Tambahkan ini di bawah CSS existing, atau sesuaikan media query-nya */
+@media screen and (max-width: 768px) {
+  .home {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    row-gap: 2rem;
+    padding: 2rem 1rem 3rem;
+    text-align: center;
+  }
+
+  .home__data {
+    order: 2;
+  }
+
+  .home__img {
+    position: static;
+    order: 1;
+    width: 200px;
+    max-width: 80%;
+  }
+
+  .home__blob-img {
+    width: 100%;
+  }
+
+  .home__title {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .animated-wrapper {
+    display: block;
+    min-height: auto;
+  }
+
+  .home__social {
+    order: 3;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .home__social-icon {
+    margin: 0;
+    font-size: 1.3rem;
+  }
+}
+
 
 /*BUTTONS*/
 .button {
